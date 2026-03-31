@@ -1,12 +1,12 @@
-# 🚀 Cloud Migration & Disaster Recovery using Terraform
+#  Cloud Migration & Disaster Recovery using Terraform
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates an end-to-end AWS infrastructure setup using **Terraform (Infrastructure as Code)**. It includes high availability, disaster recovery, monitoring, and cost optimization strategies.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Cloud:** AWS (EC2, VPC, S3, ALB, Auto Scaling, CloudWatch, SNS)
 * **IaC:** Terraform
@@ -15,7 +15,7 @@ This project demonstrates an end-to-end AWS infrastructure setup using **Terrafo
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 * Custom VPC with public subnets across multiple Availability Zones
 * Internet Gateway and Route Tables for external access
@@ -28,7 +28,7 @@ This project demonstrates an end-to-end AWS infrastructure setup using **Terrafo
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Infrastructure provisioning using Terraform
 * Automated EC2 configuration using user_data
@@ -43,7 +43,7 @@ This project demonstrates an end-to-end AWS infrastructure setup using **Terrafo
 
 ---
 
-## 🔄 Terraform Workflow
+##  Terraform Workflow
 
 ```
 terraform init
@@ -54,7 +54,7 @@ terraform destroy
 
 ---
 
-## 🧪 Disaster Recovery Validation
+##  Disaster Recovery Validation
 
 * Simulated EC2 failure
 * Auto Scaling replaced instance automatically
@@ -63,7 +63,7 @@ terraform destroy
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 .
@@ -80,7 +80,7 @@ terraform destroy
 
 ---
 
-## 🎯 Key Learnings
+##  Key Learnings
 
 * Designed scalable and fault-tolerant AWS architecture
 * Implemented Infrastructure as Code using Terraform
@@ -89,7 +89,7 @@ terraform destroy
 
 ---
 
-## 📌 Outcome
+##  Outcome
 
 Built a **production-ready, scalable, and highly available cloud infrastructure** with automated disaster recovery and monitoring.
 
